@@ -18,7 +18,13 @@
 }
 
 .link {
-    min-width: 50% !important;
+    display: inline-block;
+    border: 2px solid black;
+    padding: 4px 8px;
+    margin: 6px 0;
+    text-decoration: none;
+    border-radius: 6px;
+    font-style: italic;
 }
 
 @media (min-width: 1200px)
