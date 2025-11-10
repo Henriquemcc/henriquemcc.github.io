@@ -16,3 +16,7 @@
     text-align: center;
     width: 100%;
 }
+
+.link {
+    min-width: 50% !important;
+}
