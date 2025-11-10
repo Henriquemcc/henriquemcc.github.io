@@ -17,6 +17,11 @@
     width: 100%;
 }
 
+.contact-container {
+    text-align: center;
+    width: 100%;
+}
+
 .link {
     display: inline-block;
     border: 2px solid black;
