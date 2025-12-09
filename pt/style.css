@@ -1,8 +1,3 @@
-.img-perfil {
-    width: 100px;
-    height: 100px;
-}
-
 nav {
     display: flex;
     gap: 1.25rem;
@@ -114,4 +109,42 @@ header nav a:hover {
     max-width: 1200px;
     margin: 0 auto;
     padding: 20px;
+}
+
+/* Estilização da Seção Principal */
+#sobre {
+    padding: 60px 20px;
+    background-color: #f8f8f8;
+    color: #333;
+    text-align: center;
+}
+
+/* Estilização do título */
+#sobre h2 {
+    font-size: 2.5em;
+    color: #2c3e50;
+    margin-bottom: 30px;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+/* Estilização do parágrafo */
+#sobre p {
+    max-width: 800px;
+    margin: 20px auto;
+    line-height: 1.6;
+    font-size: 1.1em;
+    text-align: justify;
+}
+
+/* Estilização da imagem */
+.img-perfil {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+    margin: 0 auto 30px;
+    display: block;
 }
