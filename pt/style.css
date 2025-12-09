@@ -57,3 +57,21 @@ header {
     text-align: center;
     color: #333;
 }
+
+.skills-grid {
+
+    /* Ativa o grid */
+    display: grid;
+
+    /* Define colunas */
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+
+    /* Espaçamento */
+    gap: 20px;
+
+    /* Centralização */
+    justify-content: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
