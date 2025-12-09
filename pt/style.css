@@ -194,6 +194,10 @@ body {
     padding-bottom: 5px;
 }
 
+#projetos h3 {
+    font-size: 1.5em;
+}
+
 .projetos-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
