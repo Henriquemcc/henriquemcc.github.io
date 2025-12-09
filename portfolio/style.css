@@ -16,7 +16,7 @@ nav a {
     color: white;
 }
 
-header > h1 {
+header>h1 {
     color: white;
 }
 
@@ -36,7 +36,7 @@ header {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 
     /* Posição */
-    position:sticky;
+    position: sticky;
     top: 0;
     z-index: 1000;
 }
@@ -65,7 +65,7 @@ header nav a:hover {
     background-color: rgba(255, 255, 255, 0.1);
 }
 
-.skill-card > img {
+.skill-card>img {
     width: 60px;
     height: 60px;
 }
@@ -76,7 +76,7 @@ header nav a:hover {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    
+
     /* Dimensões e Estilo do Card */
     width: 120px;
     height: 120px;
@@ -192,7 +192,8 @@ body {
     text-align: center;
 }
 
-#projetos h2, #projetos h3 {
+#projetos h2,
+#projetos h3 {
     color: #2c3e50;
     margin-bottom: 30px;
 }
@@ -372,7 +373,7 @@ html {
         display: none;
     }
 
-     .menu-icon i {
+    .menu-icon i {
         font-size: 1.7em;
     }
 
