@@ -111,12 +111,15 @@ header nav a:hover {
     padding: 20px;
 }
 
+body {
+    text-align: center;
+    background-color: #f8f8f8;
+    color: #333;
+}
+
 /* Estilização da Seção Principal */
 #sobre {
     padding: 60px 20px;
-    background-color: #f8f8f8;
-    color: #333;
-    text-align: center;
 }
 
 /* Estilização do título */
