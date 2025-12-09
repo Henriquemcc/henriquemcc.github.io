@@ -11,3 +11,16 @@ nav {
     display: flex;
     gap: 1.25rem;
 }
+
+nav a {
+    color: white;
+}
+
+header > h1 {
+    color: white;
+}
+
+header {
+    background-color: black;
+    border-radius: 10px;
+}
