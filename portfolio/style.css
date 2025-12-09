@@ -1,0 +1,425 @@
+nav {
+    display: flex;
+    gap: 1.25rem;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu li {
+    list-style: none;
+    margin-left: 10px;
+}
+
+nav a {
+    color: white;
+}
+
+header>h1 {
+    color: white;
+}
+
+header {
+    /* Layout (Flexbox) */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    /* Visual Base */
+    background-color: #2c3e50;
+    color: white;
+    padding: 15px 30px;
+
+    /* Efeito Visual */
+    border-radius: 0 0 10px 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+
+    /* Posição */
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+/* Estilização do título */
+header h1 {
+    font-size: 1.8em;
+    margin: 0;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+/* Estilização da navegação */
+header nav a {
+    text-decoration: none;
+    color: #ecf0f1;
+    font-weight: 500;
+    margin-left: 25px;
+    padding: 5px 10px;
+    transition: color 0.3s, background-color 0.3s;
+    border-radius: 5px;
+}
+
+header nav a:hover {
+    color: #3498db;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.skill-card>img {
+    width: 60px;
+    height: 60px;
+}
+
+.skill-card {
+    /* Faz a imagem e o texto ficarem um em cima do outro */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    /* Dimensões e Estilo do Card */
+    width: 120px;
+    height: 120px;
+    padding: 10px;
+
+    /* Borda Arredondada */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #ffff;
+    transition: 0.3s;
+}
+
+/* Efeito ao passar o mouse */
+.skill-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilização do texto */
+.skill-card span {
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    color: #333;
+}
+
+.skills-grid {
+
+    /* Ativa o grid */
+    display: grid;
+
+    /* Define colunas */
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+
+    /* Espaçamento */
+    gap: 20px;
+
+    /* Centralização */
+    justify-content: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+body {
+    text-align: center;
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+/* Estilização da Seção Principal */
+#sobre {
+    padding: 60px 20px;
+}
+
+/* Estilização do título */
+#sobre h2 {
+    font-size: 2.5em;
+    color: #2c3e50;
+    margin-bottom: 30px;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+/* Estilização do parágrafo */
+#sobre p {
+    max-width: 800px;
+    margin: 20px auto;
+    line-height: 1.6;
+    font-size: 1.1em;
+    text-align: justify;
+}
+
+/* Estilização da imagem */
+.sobre-conteudo .img-perfil {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+    margin: 0 auto 30px;
+    display: block;
+    margin-bottom: 0;
+}
+
+/* Estilizando container que abriga a imagem e o texto sobre mim */
+.sobre-conteudo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+#habilidades h2 {
+    font-size: 2.5em;
+    color: #2c3e50;
+    margin-bottom: 30px;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+/* Estilização da seção principal de projetos */
+#projetos {
+    padding: 60px 20px;
+    background-color: #fff;
+}
+
+#projetos .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#projetos h2,
+#projetos h3 {
+    color: #2c3e50;
+    margin-bottom: 30px;
+}
+
+#projetos h2 {
+    font-size: 2.5em;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+#projetos h3 {
+    font-size: 1.5em;
+}
+
+.projetos-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 40px;
+    margin-top: 40px;
+}
+
+.projeto-card {
+    display: flex;
+    flex-direction: column;
+    background-color: #f8f8f8;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    text-align: left;
+}
+
+.projeto-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.projeto-card img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-bottom: 1px solid #ddd;
+}
+
+.projeto-info {
+    padding: 20px;
+}
+
+.projeto-info h4 {
+    color: #3498db;
+    font-size: 1.5em;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.projeto-info {
+    padding: 20px;
+}
+
+.projeto-info h4 {
+    color: #3498db;
+    font-size: 1.5em;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.projeto-info p {
+    font-size: 1em;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.btns {
+    display: flex;
+    gap: 15px;
+    margin-top: auto;
+}
+
+.btns a {
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.btns a:first-child {
+    background-color: #3498db;
+    color: white;
+}
+
+.btns a:first-child:hover {
+    background-color: #2980b9;
+}
+
+.btns a:last-child {
+    background-color: #ecf0f1;
+    color: #2c3e50;
+    border: 1px solid #bdc3c7;
+}
+
+.btns a:last-child:hover {
+    background-color: #bdc3c7;
+}
+
+html {
+    scroll-padding-top: 90px;
+}
+
+#contato {
+    padding: 60px 20px;
+    background-color: #2c3e50;
+    color: white;
+    text-align: center;
+}
+
+#contato h2 {
+    font-size: 2.5em;
+    color: #fff;
+    margin-bottom: 20px;
+    display: inline-block;
+    padding: 5px;
+}
+
+#contato p {
+    font-size: 1.2em;
+    margin-bottom: 40px;
+    opacity: 0.9;
+}
+
+.contato-card {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: #34495e;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.formas-contato {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    text-decoration: none;
+    color: white;
+    background-color: #3498db;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 1em;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.formas-contato a i {
+    font-size: 1.2em;
+}
+
+.formas-contato a:hover {
+    background-color: #2980b9;
+    transform: translateY(-2px);
+}
+
+#menuToggle {
+    display: none;
+}
+
+.menu-icon {
+    display: none;
+    z-index: 1001;
+}
+
+@media screen and (max-width:600px) {
+    .menu-icon {
+        display: block;
+    }
+
+    .menu li {
+        display: block;
+        width: 100%;
+        margin-left: 0px;
+        margin-bottom: 20px;
+    }
+
+    .menu {
+        position: fixed;
+        flex-wrap: wrap;
+        align-content: center;
+        top: 60px;
+        left: 0px;
+        width: 100%;
+        height: 0%;
+        background: rgba(0, 0, 0, 0.7);
+        overflow: hidden;
+        -webkit-transition: height 0.3s;
+        -moz-transition: height 0.3s;
+        -o-transition: height 0.3s;
+        transition: height 0.3s;
+    }
+
+    .menu-icon i {
+        font-size: 1.7em;
+    }
+
+    #menuToggle:checked~label i:nth-child(2) {
+        display: block;
+    }
+
+    #menuToggle:checked~label i:first-child {
+        display: none;
+    }
+
+    #menuToggle:not(checked)~label i:first-child {
+        display: block;
+    }
+
+    #menuToggle:not(checked)~label i:nth-child(2) {
+        display: none;
+    }
+
+    #menuToggle:checked~ul {
+        height: 100%;
+    }
+
+    #menuToggle:checked~label .fa-times-circle {
+        color: white; 
+        /* Adicione padding ou ajuste de margem aqui se ainda estiver cortando */
+        /* margin-right: 15px; */
+    }
+}
