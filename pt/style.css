@@ -170,3 +170,117 @@ body {
     display: inline-block;
     padding-bottom: 5px;
 }
+
+/* Estilização da seção principal de projetos */
+#projetos {
+    padding: 60px 20px;
+    background-color: #fff;
+}
+
+#projetos .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#projetos h2, #projetos h3 {
+    color: #2c3e50;
+    margin-bottom: 30px;
+}
+
+#projetos h2 {
+    font-size: 2.5em;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+.projetos-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 40px;
+    margin-top: 40px;
+}
+
+.projeto-card {
+    display: flex;
+    flex-direction: column;
+    background-color: #f8f8f8;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    text-align: left;
+}
+
+.projeto-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.projeto-card img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-bottom: 1px solid #ddd;
+}
+
+.projeto-info {
+    padding: 20px;
+}
+
+.projeto-info h4 {
+    color: #3498db;
+    font-size: 1.5em;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.projeto-info {
+    padding: 20px;
+}
+
+.projeto-info h4 {
+    color: #3498db;
+    font-size: 1.5em;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.projeto-info p {
+    font-size: 1em;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.btns {
+    display: flex;
+    gap: 15px;
+    margin-top: auto;
+}
+
+.btns a {
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.btns a:first-child {
+    background-color: #3498db;
+    color: white;
+}
+
+.btns a:first-child:hover {
+    background-color: #2980b9;
+}
+
+.btns a:last-child {
+    background-color: #ecf0f1;
+    color: #2c3e50;
+    border: 1px solid #bdc3c7;
+}
+
+.btns a:last-child:hover {
+    background-color: #bdc3c7;
+}
