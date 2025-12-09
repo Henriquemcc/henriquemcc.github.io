@@ -162,3 +162,11 @@ body {
     max-width: 1000px;
     margin: 0 auto;
 }
+
+#habilidades h2 {
+    font-size: 2.5em;
+    color: #2c3e50;
+    margin-bottom: 30px;
+    display: inline-block;
+    padding-bottom: 5px;
+}
