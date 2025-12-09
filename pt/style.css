@@ -288,3 +288,7 @@ body {
 .btns a:last-child:hover {
     background-color: #bdc3c7;
 }
+
+html {
+    scroll-padding-top: 90px;
+}
