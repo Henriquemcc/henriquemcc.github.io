@@ -1,0 +1,6 @@
+title: Henrique Mendonça Castelar Campos
+url: "https://henriquemcc.github.io"
+baseurl: ""
+
+plugins:
+  - jekyll-sitemap
