@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <!-- Redirecionando de acordo com o idioma -->
+    <script>
+        const idiomaPrincipal = navigator.language;
+        if (idiomaPrincipal.startsWith("pt"))
+            window.location.href="./pt";
+        else
+            window.location.href="./en";
+    </script>
+</head>
+<body>
+    <main>
+        <h1>Select your language:</h1>
+        <p><a href="./en">English</a></p>
+        <p><a href="./pt">Português</a></p>
+    </main>
+</body>
+</html>
