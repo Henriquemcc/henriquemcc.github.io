@@ -216,6 +216,7 @@ body {
 }
 
 .projeto-card {
+    max-width: 600px;
     display: flex;
     flex-direction: column;
     background-color: #f8f8f8;
@@ -232,9 +233,11 @@ body {
 }
 
 .projeto-card img {
-    width: 100%;
+    max-width: 600px;
+    max-height: 300px;
+    width: auto;
     height: auto;
-    object-fit: cover;
+    object-fit: fill;
     border-bottom: 1px solid #ddd;
 }
 
