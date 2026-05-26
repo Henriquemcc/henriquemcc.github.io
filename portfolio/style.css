@@ -216,7 +216,7 @@ body {
 }
 
 .projeto-card {
-    width: 600px;
+    max-width: 600px;
     display: flex;
     flex-direction: column;
     background-color: #f8f8f8;
