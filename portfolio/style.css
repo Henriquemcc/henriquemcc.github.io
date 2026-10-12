@@ -172,6 +172,7 @@ body {
     margin: 0 auto;
 }
 
+/* Estilização da seção de experiência */
 #experiencia {
     padding: 60px 20px;
     background-color: #eef3f7;
@@ -258,6 +259,7 @@ body {
     line-height: 1.6;
 }
 
+/* Estilização da seção de habilidades */
 #habilidades h2 {
     font-size: 2.5em;
     color: #2c3e50;
